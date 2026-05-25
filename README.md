@@ -102,7 +102,7 @@
         
         // Base64 encoded high-resolution asset background structure layout
         // For local development, replace this with your file path: templateImage.src = '1000662363.png';
-        templateImage.src = 'https://i.ibb.co/67N5g86/1000662363.png'; 
+templateImage.src = './1000662363.png';
         templateImage.crossOrigin = "anonymous"; // Bypass potential CORS security locks
 
         templateImage.onload = () => {
